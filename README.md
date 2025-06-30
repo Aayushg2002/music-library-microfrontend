@@ -26,3 +26,6 @@ A React-based music library application demonstrating Micro Frontend Architectur
 ### Prerequisites
 - Node.js (v16 or higher)
 - Yarn or npm
+
+### Pages
+
