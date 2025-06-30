@@ -36,3 +36,40 @@ A React-based music library application demonstrating Micro Frontend Architectur
 ### Music Library:
 ![image alt](https://github.com/Aayushg2002/music-library-microfrontend/blob/f32cc54bd471070ad19e42dfba8111ba79e55ab0/4.png)
 
+###Architecture Overview:
+
+Micro Frontend Implementation
+  The application uses Webpack Module Federation to implement the micro frontend architecture:
+     1.Container App:
+         Acts as the host application
+         Dynamically loads the Music Library micro frontend
+         Manages authentication state via React Context
+         Provides the auth context to the micro frontend
+     2.Music Library (Micro Frontend):
+         Exposes its components via Module Federation
+         Receives auth props from the container
+         Contains all music library functionality
+         Has no direct authentication logic
+         
+Role-Based Authentication
+  The authentication system works as follows:
+    1.Mock JWT:
+         Tokens are stored in localStorage
+         Contains user role information
+         No actual backend validation (purely frontend mock)
+    2.Role Handling:
+         Admin role sees all CRUD operations
+         User role only sees read-only views
+         UI elements are shown/hidden based on roles
+    3.Protected Routes:
+         Unauthenticated users are redirected to login
+         Role-specific routes are enforced
+
+ Built With:
+     React 18
+     Vite
+     Webpack Module Federation
+     Tailwind CSS
+     React Router
+     JWT (mock implementation)
+
