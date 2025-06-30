@@ -28,4 +28,4 @@ A React-based music library application demonstrating Micro Frontend Architectur
 - Yarn or npm
 
 ### Pages
-https://github.com/Aayushg2002/music-library-microfrontend/blob/91085155621328365e4543170ef29d6b3a831039/1.png
+![image alt](https://github.com/Aayushg2002/music-library-microfrontend/blob/91085155621328365e4543170ef29d6b3a831039/1.png)
