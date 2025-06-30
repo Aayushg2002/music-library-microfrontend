@@ -21,11 +21,18 @@ A React-based music library application demonstrating Micro Frontend Architectur
 - Password: `user123`
 - Permissions: View and filter songs only
 
-## How to Run Locally
+## 🛠 Local Development Setup
 
 ### Prerequisites
-- Node.js (v16 or higher)
-- Yarn or npm
+- Node.js v18+
+- npm or yarn
+- Git
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Aayushg2002/music-library-microfrontend.git
+cd music-library-microfrontend
+
 
 ### Main Pages :
 ![image alt](https://github.com/Aayushg2002/music-library-microfrontend/blob/91085155621328365e4543170ef29d6b3a831039/1.png)
